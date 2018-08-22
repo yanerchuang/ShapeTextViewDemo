@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.ywj.shapetextviewdemo.ShapeTextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:onClick="press"
+        android:text="Hello World1!"
+        android:textColor="#000"
+        app:bottomLeftRadius="0dp"
+        app:bottomRightRadius="20px"
+        app:solidColor="#ff0"
+        app:solidTouchColor="#0f0"
+        app:strokeColor="#f00"
+        app:strokeTouchColor="#00f"
+        app:strokeWith="5px"
+        app:textTouchColor="#fff"
+        app:topLeftRadius="20dp"
+        app:topRightRadius="0dp"
+
+        />
+
+    <com.ywj.shapetextviewdemo.ShapeTextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:onClick="press"
+        android:text="Hello World2!"
+        android:textColor="#000"
+        app:bottomLeftRadius="0dp"
+        app:bottomRightRadius="20px"
+        app:dashGap="5dp"
+        app:dashWidth="5dp"
+        app:solidColor="#ff0"
+        app:solidTouchColor="#0f0"
+        app:strokeColor="#f00"
+        app:strokeTouchColor="#00f"
+        app:strokeWith="5px"
+        app:textTouchColor="#fff"
+        app:topLeftRadius="20dp"
+        app:topRightRadius="0dp"
+
+        />
+
+    <com.ywj.shapetextviewdemo.ShapeTextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:onClick="press"
+        android:text="Hello World3!"
+        android:textColor="#000"
+        app:radius="20dp"
+        app:solidColor="#ff0"
+        app:solidTouchColor="#0f0"
+        app:strokeColor="#f00"
+        app:strokeTouchColor="#00f"
+        app:strokeWith="5px"
+        app:textTouchColor="#fff" />
+
+    <com.ywj.shapetextviewdemo.ShapeTextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:onClick="press"
+        android:text="Hello World4!"
+        android:textColor="#000"
+        app:shapeType="oval"
+        app:solidColor="#ff0"
+        app:solidTouchColor="#0f0"
+        app:strokeColor="#f00"
+        app:strokeTouchColor="#00f"
+        app:strokeWith="5px"
+        app:textTouchColor="#fff" />
+</LinearLayout>
